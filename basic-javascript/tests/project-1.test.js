@@ -85,10 +85,10 @@ describe('`lessThanNinety`', () => {
     const lessThanNinety = funcs.lessThanNinety;
     assert.typeOf(lessThanNinety, 'function');
   });
-  it('should be a number', () => {
+  it('should be a boolean', () => {
     const { lessThanNinety } = funcs;
     const num = lessThanNinety(50);
-    assert.typeOf(num, 'number');
+    assert.typeOf(num, 'boolean');
   });
 });
 
